@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+/* CONTAINER */
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#5fe8bd, #13db9f);
+}
+
+/* FORM */
+.password-form {
+  color: #fff;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.header {
+  padding: 3rem 1.5rem;
+  font-size: 1.3rem;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header .header_accent {
+  color: #13db9f;
+}
+
+.password-settings {
+  display: flex;
+  justify-content: space-around;
+}
+
+.password-settings input {
+  width: 40px;
+  height: 40px;
+}
+
+.password-settings .chars-num_input {
+  padding: 0;
+  text-align: center;
+  background-color: #585858;
+  color: #13db9f;
+}
+
+.password-settings .generate {
+  width: fit-content;
+}
+
+/* GENERATED PASSWORD */
+.password {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+}
+
+.password label {
+  padding: 5px;
+  margin: auto;
+}
+
+.password .generated-password {
+  width: 200px;
+  text-align: center;
+  background-color: #585858;
+  color: #13db9f;
+}
+
+.password .generated-password:hover {
+  cursor: pointer;
+}
+
+.password .copied {
+  padding: 5px;
+  height: 16px;
+  text-align: center;
+}
+
+/* GENERAL */
+.btn {
+  background-color: #13db9f;
+}
+
+input {
+  padding: 8px 16px;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.01rem;
+}
+
+hr {
+  border: 1px solid #585858;
+  margin: 3rem 0;
+}
