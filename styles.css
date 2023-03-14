@@ -82,10 +82,6 @@ body {
   color: #13db9f;
 }
 
-.password .generated-password:hover {
-  cursor: pointer;
-}
-
 .password .copied {
   padding: 5px;
   height: 16px;
@@ -103,6 +99,10 @@ input {
   border: none;
   border-radius: 5px;
   font-size: 1.01rem;
+}
+
+input:hover {
+  cursor: pointer;
 }
 
 hr {
